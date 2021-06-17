@@ -117,6 +117,9 @@ body {
 }
 
 @media (max-width: 768px) {
+  body {
+    grid-template-rows: 0.1fr 1fr 0.2fr;
+  }
   .container {
     padding: 50px;
     grid-column: 1/4;
@@ -159,6 +162,7 @@ body {
   .container {
     grid-column: 2/3;
     grid-row: 2/3;
+    margin-top: -200px;
   }
   .container .card {
     flex-direction: column;
