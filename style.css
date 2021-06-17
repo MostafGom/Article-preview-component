@@ -167,6 +167,8 @@ body {
   .container .card .txt {
     padding: 40px 10px 20px;
   }
+}
+@media (min-width: 768px) {
   .txt .person .share .icons {
     background-color: var(--Dark-Grayish-Blue);
     width: 200px;
